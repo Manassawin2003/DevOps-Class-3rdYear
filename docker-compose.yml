@@ -1,0 +1,8 @@
+version: '3.10'
+
+services:
+  django:
+    image: django-webpage-3rdyear
+    build: .
+    ports:
+      - "8000:8000"
